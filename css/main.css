@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Moon+Dance&family=Open+Sans:wght@300;400;500;600&family=Seymour+One&display=swap');
+
+body {
+    background: rgba(69, 1, 17, 1);
+    background: -moz-linear-gradient(left, rgba(69, 1, 17, 1) 0%, rgba(110, 13, 36, 1) 63%, rgba(169, 3, 41, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(69, 1, 17, 1)), color-stop(63%, rgba(110, 13, 36, 1)), color-stop(100%, rgba(169, 3, 41, 1)));
+    background: -webkit-linear-gradient(left, rgba(69, 1, 17, 1) 0%, rgba(110, 13, 36, 1) 63%, rgba(169, 3, 41, 1) 100%);
+    background: -o-linear-gradient(left, rgba(69, 1, 17, 1) 0%, rgba(110, 13, 36, 1) 63%, rgba(169, 3, 41, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(69, 1, 17, 1) 0%, rgba(110, 13, 36, 1) 63%, rgba(169, 3, 41, 1) 100%);
+    background: linear-gradient(to right, rgba(69, 1, 17, 1) 0%, rgba(110, 13, 36, 1) 63%, rgba(169, 3, 41, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#450111', endColorstr='#a90329', GradientType=1);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.menu_btn {
+    font-size: 12px !important;
+    ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#side-cart{
+    position: absolute;
+    right: 0;
+    background: yellow;
+    padding: 20px;
+    bottom: 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+#our-serv{
+    background: #fff;
+    margin: 0 auto;
+    padding: 14px 101px;
+}
+
+#our-serv h3{
+    font-weight: bold;
+}
+#our-serv span{
+    font-weight: bold;
+}
+
+#circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.del-h1 {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+
+.heading-h1 {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 43px;
+}
+.heading-h3 {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
+#ourMenu li{
+    list-style: none;
+}
+
+#ch1:hover {
+    background: #fff;
+}
+
+#ch1:hover #cart {
+    background: #FFB100;
+}
+
+#ch1:hover #h3 {
+    color: rgb(14, 24, 14);
+}
+#h3{
+    color: #fff;
+}
+
+.container-1 {
+    display: flex;
+    width: 101%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.box-1,
+.box-2 {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    justify-content: space-between;
+}
+
+.box i {
+    font-size: 1.6rem;
+}
+
+.container-para {
+    font-size: 0.9rem;
+}
+
+.para-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 850px) {
+
+    .box-1,
+    .box-2 {
+        width: 100%;
+    }
+
+    .box-word {
+        width: 69%;
+    }
+
+    .para-heading {
+        font-size: 1.1rem;
+    }
+
+    .container-para {
+        font-size: 0.8rem;
+    }
+
+    .box i {
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 615px) {
+    .para-heading {
+        font-size: 1rem;
+    }
+
+    .box-1,
+    .box-2 {
+        width: 100%;
+    }
+    .box-word {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .para-heading {
+        font-size: 0.9rem;
+    }
+
+    .container-para {
+        text-align: justify;
+        word-spacing: 0.4rem;
+        font-size: 0.78rem;
+    }
+    #padding-header{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 992px){
+    div#padding-header-img {
+        padding-left: 0px;
+        padding-top: 65px;
+    }
+    div#padding-header {
+        padding-top: 0px;
+    }
+
+}
+@media (min-width: 992px){
+    div#padding-header-img {
+        padding-left: 115px;
+        padding-top: 65px;
+    }
+    div#padding-header {
+        padding-top: 130px;
+    }
+
+}
